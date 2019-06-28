@@ -13,6 +13,6 @@ php(外文名：PHP:Hypertext Preprocessor,“中文名超文本预处理器”)
 4、session是一中会话机制，一般用在登录多，当登录后会把用户id存到session中，当访问网站别的页面时会判断用户是否登录，如果没有则显示未登录，有的话执行用户的操作。
 5、session用法，每次使用时要先 执行**session_start()** 这个函数 **$_SESSION['字段名']='前端传过来的值'** 记录到session,下一步当用户跳转到网站别的页面是，把cooies的值传到php与session['字段名']中的值做比较。<br>
 6、PHP接受前端传过来的值得方法 **$_POST['字段名']或$_REQUEST['字段名']** $_POST只能接受post请求方式，而$_REQUEST什么类型都可以接收。</br>
-![image](https://github.com/qzxuwenlong/yd-php/blob/master/images/ajax.png)
+![image](https://github.com/qzxuwenlong/yd-php/blob/master/images/ajax.png)</br>
 7、PHP echo值有汉字时要在php文件加上 `header("Content-type:application/json;charset=utf-8");`。</br>
-![image](https://github.com/qzxuwenlong/yd-php/blob/master/images/ajax.png)
+![image](https://github.com/qzxuwenlong/yd-php/blob/master/images/php.png)</br>
